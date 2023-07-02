@@ -31,8 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "https://bingepirates-default-rtdb.firebaseio.com/")
 DB_NAME = os.environ.get("DATABASE_NAME", "bingePirates")
 
-InlineKeyboardMarkup([[InlineKeyboardButton("Click Me", url="https://google.com")]])
-    message.reply_text("hello.", reply_markup=keyboard)
+
 
 app.run()
 
